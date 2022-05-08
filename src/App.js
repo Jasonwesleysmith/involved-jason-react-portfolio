@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Project from './components/Project';
 
 const App = () => {
   //javascript here
@@ -21,6 +22,7 @@ const App = () => {
         <p>Hello, I'm Jason W. Smith, a DIY drummer dad living the dream in beautiful Nashville, TN.  Quickly becoming a budding web developer learning to code one application at a time.  Please feel free to take a look around!</p>
     </section>
     
+    {/* PROJECTS */}
     <section id="my-work">
         <h2>My work</h2>
         <article>
@@ -30,6 +32,10 @@ const App = () => {
             </a>
         </article>
         <div class="grid">
+          <Project link="https://jasonwesleysmith.github.io/horiseon-consolidated-LLC/" img="./images/Horiseon.png" project="Horiseon" alt="Horiseon consolidated refactor screenshot" /> 
+          <Project link="" img="" project="" alt="" /> 
+          <Project link="" img="" project="" alt="" /> 
+          <Project link="" img="" project="" alt="" /> 
             <article>
                 <a class="article" href="https://jasonwesleysmith.github.io/horiseon-consolidated-LLC/">
                     <h3>Horiseon</h3>
