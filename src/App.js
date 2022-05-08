@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 const App = () => {
   //javascript here
-  
+
   return (
     <>
     <Header/>
@@ -55,16 +56,8 @@ const App = () => {
             </article>     
         </div>
     </section>
+    <Footer/>
     
-    <section id="contact">
-        <h2>Contact:</h2>
-        <article id="contact-links">
-        <a href="tel:+8165509299">816.550.9299</a>
-        <a href="mailto:jasonwesleysmith82@gmail.com">Email</a>
-        <a href="https://github.com/Jasonwesleysmith">Github</a>
-        <a href="https://www.linkedin.com/in/jason-smith-0aa94ab1/">Linkedin</a>
-        </article>
-    </section>
 </>
   );
 }
