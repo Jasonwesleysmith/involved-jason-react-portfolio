@@ -1,24 +1,13 @@
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
 
-function App() {
+const App = () => {
+  //javascript here
+  
   return (
     <>
-    
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>    
-    </header>
+    <Header/>
     <section class="photo-greeting">
         <img src="./images/Me.jpeg" alt="Jason is smiling and being awesome"/>
         <h1>
