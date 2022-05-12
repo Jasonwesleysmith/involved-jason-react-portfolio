@@ -1,14 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Project from "../Project"
 
-const Project = ({link, project, img, alt}) => {
+const Portfolio = () => {
+  const [projects] = useState([
+    {
+      name: "Run Buddy",
+      repo: ""
+
+
+    },
+    {
+      name: "Super: songSearch",
+      repo: ""
+    }
+  ])
   return (
-    <article>
-        <a class="article" href={link}>
-            <h3>{project}</h3>
-            <img src={img} alt={alt} />
-        </a>
-    </article>
+    <div>
+      <div>
+        {projects.map((project,idx) => (
+          <Project
+          project = {project}
+          key={"project" + idx}/>
+
+        ))}
+      </div>
+
+    </div>
   )
 }
 
-export default Project
+export default Portfolio

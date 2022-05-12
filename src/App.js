@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 
 const App = () => {
   //javascript here
@@ -25,17 +25,19 @@ const App = () => {
     {/* PROJECTS */}
     <section id="my-work">
         <h2>My work</h2>
-        <article>
+       <Portfolio/>
+        {/* <article>
             <a class="article" href="https://jasonwesleysmith.github.io/Run-buddy/">
                 <h3>Run Buddy</h3>
                 <img src="./images/Run-Buddy-Cover.png" alt="Run Buddy landing page screenshot" />
             </a>
-        </article>
-        <div class="grid">
-          <Project link="https://jasonwesleysmith.github.io/horiseon-consolidated-LLC/" img="./images/Horiseon.png" project="Horiseon" alt="Horiseon consolidated refactor screenshot" /> 
-          <Project link="" img="" project="" alt="" /> 
-          <Project link="" img="" project="" alt="" /> 
-          <Project link="" img="" project="" alt="" /> 
+        </article> */}
+
+        {/* <div class="grid">
+          <Portfolio link="https://jasonwesleysmith.github.io/horiseon-consolidated-LLC/" img="./images/Horiseon.png" portfolio="Horiseon" alt="Horiseon consolidated refactor screenshot" /> 
+          <Portfolio link="" img="" portfolio="" alt="" /> 
+          <Portfolio link="" img="" portfolio="" alt="" /> 
+          <Portfolio link="" img="" portfolio="" alt="" /> 
             <article>
                 <a class="article" href="https://jasonwesleysmith.github.io/horiseon-consolidated-LLC/">
                     <h3>Horiseon</h3>
@@ -56,11 +58,11 @@ const App = () => {
             </article> 
             <article>
                 <a class="article" href="">
-                    <h3>Sample Project</h3>
+                    <h3>Sample portfolio</h3>
                     <div class="placeholder-image"></div>
                 </a>
             </article>     
-        </div>
+        </div> */}
     </section>
     <Footer/>
     
