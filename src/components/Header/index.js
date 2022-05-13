@@ -1,21 +1,27 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({page, setPage}) => {
     return (
         <header>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about">About</a>
+                    <li className="navLink" style={{color: page === "About" ? "#fff" : "#aaa" }} onClick={()=>setPage("About")}>
+                        About
                     </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
+                    <li className="navLink" style={{color: page === "Portfolio" ? "#fff" : "#aaa" }} onClick={()=>setPage("Portfolio")}>
+                        Portfolio
                     </li>
-                    <li>
-                        <a href="#contact">Contact</a>
+                    <li className="navLink" style={{color: page === "Contact" ? "#fff" : "#aaa" }} onClick={()=>setPage("Contact")}>
+                        Contact
                     </li>
                 </ul>
             </nav>    
+            <section class="photo-greeting">
+            <img src="" alt="Jason is smiling and being awesome"/>
+            <h1>
+                <a href="assets/images/Me.jpeg"><span className="involvedTitle">Involved</span><span className="involvedTitle">Jason</span></a>
+            </h1>
+        </section>
         </header>
     )
 }

@@ -60,6 +60,10 @@ li {
   content: ' : '
 }
 
+.navLink {
+  cursor : pointer;
+}
+
 .photo-greeting {
   display: flex;
   justify-content: space-evenly;
