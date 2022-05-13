@@ -2,30 +2,81 @@ import React, { useState } from 'react'
 import Project from "../Project"
 
 const Portfolio = () => {
-  const [projects] = useState([
+  const projects = [
     {
       name: "Run Buddy",
-      repo: ""
-
-
+      repo: "",
+      link: "",
+      image: ""
     },
     {
       name: "Super: songSearch",
-      repo: ""
+      repo: "",
+      link: "",
+      image: ""
+    },
+    {
+      name: "Super: songSearch",
+      repo: "",
+      link: "",
+      image: ""
+    },
+    {
+      name: "Super: songSearch",
+      repo: "",
+      link: "",
+      image: ""
+    },
+    {
+      name: "Super: songSearch",
+      repo: "",
+      link: "",
+      image: ""
+    },
+    {
+      name: "Super: songSearch",
+      repo: "",
+      link: "",
+      image: ""
     }
-  ])
+  ]
+  // const [projects] = useState([
+  //   {
+  //     name: "Run Buddy",
+  //     repo: ""
+  //   },
+  //   {
+  //     name: "Super: songSearch",
+  //     repo: ""
+  //   },
+  //   {
+  //     name: "Super: songSearch",
+  //     repo: ""
+  //   },
+  //   {
+  //     name: "Super: songSearch",
+  //     repo: ""
+  //   },
+  //   {
+  //     name: "Super: songSearch",
+  //     repo: ""
+  //   },
+  //   {
+  //     name: "Super: songSearch",
+  //     repo: ""
+  //   }
+  // ])
   return (
-    <div>
-      <div>
+    // <div>
+      <>
         {projects.map((project,idx) => (
           <Project
           project = {project}
           key={"project" + idx}/>
 
         ))}
-      </div>
-
-    </div>
+      </>
+    // </div>
   )
 }
 

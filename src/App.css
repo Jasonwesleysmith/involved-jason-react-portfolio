@@ -51,6 +51,15 @@ li {
   font-size: 42px;
 }
 
+.involvedTitle {
+  letter-spacing: 20px;
+  text-transform: uppercase;
+}
+
+.involvedTitle:first-of-type::after {
+  content: ' : '
+}
+
 .photo-greeting {
   display: flex;
   justify-content: space-evenly;
