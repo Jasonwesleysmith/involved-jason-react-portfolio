@@ -1,3 +1,6 @@
+* {
+  padding: 5px;
+}
 /* general html styling */
 html {
   font-family: sans-serif;
@@ -6,7 +9,7 @@ html {
 }
 /* header styling */
 header {
-  font-size: 28px;
+  font-size: 22px;
   color: rgb(230, 224, 215);
   position:sticky;
   top: 0;
@@ -14,14 +17,30 @@ header {
   
 }
 
+footer {
+  color: rgb(230, 224, 215);
+  padding-top: 8px;
+  background-color: #00000056;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
-  font-size: 52px;
+  font-size: 36px;
   margin-left: 15px;
   align-items: center;
 }
 
 h2 {
-  font-size: 46px;
+  font-size: 34px;
   align-items: center;   
 }
 
@@ -82,6 +101,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .grid {
@@ -94,6 +114,10 @@ li {
 
 .grid article {
   margin: 25px;
+}
+
+.contactSection {
+  padding-left: 30px;
 }
 
 #contact-links {

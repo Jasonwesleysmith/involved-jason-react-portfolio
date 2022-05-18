@@ -17,7 +17,7 @@ const Header = ({page, setPage}) => {
                 </ul>
             </nav>    
             <section class="photo-greeting">
-            <img src="/images/Me.jpeg" alt="Jason is smiling and being awesome"/>
+            <img src="/images/Me2.jpeg" alt="Jason is smiling and being awesome"/>
             <h1>
                 <a href="/images/Me.jpeg"><span className="involvedTitle">Involved</span><span className="involvedTitle">Jason</span></a>
             </h1>
