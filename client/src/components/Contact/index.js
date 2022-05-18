@@ -1,12 +1,3 @@
-// import React, { useState } from 'react';
-
-// const Contact = () => {
-//   return (
-//     <div>contact</div>
-//   )
-// }
-
-// export default Contact
 
 import React, { useState } from 'react';
 
@@ -46,8 +37,6 @@ function ContactForm() {
       console.log('Handle Form', formState);
     }
   };
-
-// const Contact = () => {
 
   return (
     <section>
