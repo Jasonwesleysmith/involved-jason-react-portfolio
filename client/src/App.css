@@ -1,6 +1,4 @@
-* {
-  padding: 5px;
-}
+
 /* general html styling */
 html {
   font-family: sans-serif;
@@ -66,8 +64,8 @@ ul {
 }
 
 li {
-  margin: 50px;
-  font-size: 42px;
+  margin: 10px;
+
 }
 
 .involvedTitle {
@@ -81,6 +79,7 @@ li {
 
 .navLink {
   cursor : pointer;
+  font-size: 22px;
 }
 
 .photo-greeting {
@@ -91,10 +90,9 @@ li {
   border-radius: 15px;
 }
 
-.placeholder-image {
-  width: 424px;
-  height: 220px;
-  background-color: steelblue;
+.profile-picture {
+  width: 100px;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
 }
 
 #about, #my-work, #content, .article, #contact {
@@ -118,6 +116,10 @@ li {
 
 .contactSection {
   padding-left: 30px;
+}
+
+.bio {
+  font-size: 20px;
 }
 
 #contact-links {

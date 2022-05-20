@@ -39,12 +39,7 @@ const Portfolio = () => {
       link: "https://morning-dusk-36921.herokuapp.com/",
       image: "/images/budgettracker.png"
     },
-    {
-      name: "Budget Tracker",
-      repo: "https://github.com/Jasonwesleysmith/budget-tracker",
-      link: "https://morning-dusk-36921.herokuapp.com/",
-      image: "/images/budgettracker.png"
-    }
+    
   ]
   return (
       <section id="my-work">
