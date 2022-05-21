@@ -2,7 +2,7 @@
 
 
 
-## HTML section
+## Details
 1. Created Components: About, Contact, Footer, header, Portfolio and Project
 2. Used mapping to iterate over individual projects
 3. Styled with CSS
