@@ -3,16 +3,17 @@ import Project from "../Project"
 
 const Portfolio = () => {
   const projects = [
+    
     {
-      name: "Run Buddy",
-      repo: "https://github.com/Jasonwesleysmith/Run-buddy",
-      link: "https://jasonwesleysmith.github.io/Run-buddy/",
-      image: "/images/Run-Buddy-Cover.png"
+      name: "Neighbor:Good",
+      repo: "https://github.com/Jasonwesleysmith/neighbor-good",
+      link: "https://project-3-neighbor-good.herokuapp.com/",
+      image: "/images/Neighborgood.png"
     },
     {
       name: "Super: songSearch",
       repo: "https://github.com/Jasonwesleysmith/super-song-search",
-      link: " https://jasonwesleysmith.github.io/super-song-search/",
+      link: "https://jasonwesleysmith.github.io/super-song-search/",
       image: "/images/Super-song-search.png"
     },
     {
@@ -38,6 +39,12 @@ const Portfolio = () => {
       repo: "https://github.com/Jasonwesleysmith/budget-tracker",
       link: "https://morning-dusk-36921.herokuapp.com/",
       image: "/images/budgettracker.png"
+    },
+    {
+      name: "Run Buddy",
+      repo: "https://github.com/Jasonwesleysmith/Run-buddy",
+      link: "https://jasonwesleysmith.github.io/Run-buddy/",
+      image: "/images/Run-Buddy-Coverv2.png"
     },
     
   ]
