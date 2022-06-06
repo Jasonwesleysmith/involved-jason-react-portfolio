@@ -125,10 +125,10 @@ li {
   font-size: 20px;
 }
 
-.project {
+/* .project {
   display:flex;
   flex-direction: column;
-}
+} */
 
 #contact-links {
   font-size: 24px;   
