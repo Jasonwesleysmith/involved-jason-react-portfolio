@@ -27,7 +27,8 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "if-env": "^1.0.4",
-    "nodemailer": "^6.7.5"
+    "nodemailer": "^6.7.5",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "concurrently": "^7.1.0",
